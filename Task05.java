@@ -3,6 +3,7 @@ package task05;
 public class Task05 {
 
     String name;
+    String s;
     int count;
     int i;
 
