@@ -4,6 +4,9 @@ public class Task05 {
 
     String name;
     int i;
+    String s;
+    int count;
+    int i;
 
     public Task05(String name) {
         this.name = name;
@@ -23,5 +26,9 @@ public class Task05 {
 
     public void setI(int i) {
         this.i = i;
+    }
+
+    public int consider(int count, int i){
+        return count * i;
     }
 }
